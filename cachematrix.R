@@ -24,7 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get,
        setsolve = setsolve,
        getsolve = getsolve)
-  
 }
 
 ## Function “cacheSolve” computes the inverse of the special “matrix”
